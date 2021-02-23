@@ -9,10 +9,13 @@ license = "MIT"
 python = "^3.8"
 pandas = "^1.2.2"
 matplotlib = "3.2"
+importlib-metadata = "^3.5.0"
+typing-extensions = "^3.7.4"
 
 [tool.poetry.dev-dependencies]
 Sphinx = "^3.5.1"
 sphinxcontrib-napoleon = "^0.7"
+pytest = "^6.2.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

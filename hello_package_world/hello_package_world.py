@@ -27,5 +27,5 @@ def better_hist(df, **kwargs):
     """
     plt.style.use("seaborn")
 
-    df.hist(**kwargs)
+    return df.hist(**kwargs)
 

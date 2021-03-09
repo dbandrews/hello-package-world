@@ -10,12 +10,12 @@ def better_hist(df, **kwargs):
     ----------
     df : pandas.DataFrame
         Pandas dataframe to histogram each column by with improved formatting
-    **kwargs : 
+    **kwargs :
         Arguments passed onto pandas.DataFrame.hist()
 
     Returns
     -------
-    None : 
+    None :
         Plot is displayed as side effect
 
     Examples
@@ -27,5 +27,4 @@ def better_hist(df, **kwargs):
     """
     plt.style.use("seaborn")
 
-    return df.hist(**kwargs)
-
+    return df.hist(**kwargs,)
